@@ -1,18 +1,18 @@
-/* 
-    Project : Collatz Conjecture 
+/*
+    Project : Collatz Conjecture
     Author  : Haritha Kusal
 */
 
 #include <stdio.h>
 
-int main() 
-{    
+int main()
+{
     int n;
 
-    for (int i = 1; i <= 100; i++)
+    for (int i = 1;; i++)
     {
         n = i;
-        printf("Number: %d >>> ", n);
+        printf("Number %d - ", n);
 
         while(n > 1)
         {
@@ -22,11 +22,11 @@ int main()
                 printf("%d ", n);
             }
             else
-            {   
+            {
                 n = n * 3 + 1;
                 printf("%d ", n);
             }
-        }   
+        }
 
         printf("\n");
     }
