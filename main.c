@@ -9,7 +9,7 @@ int main()
 {    
     int n;
 
-    for (int i = 0; i < 100; i++)
+    for (int i = 1; i <= 100; i++)
     {
         n = i;
         printf("Number: %d >>> ", n);
