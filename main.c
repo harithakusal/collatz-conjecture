@@ -14,7 +14,7 @@ FILE *fptr;
 int main()
 {
     clock_t begin = clock();
-    fptr = fopen("./out1.txt","w");
+    fptr = fopen("./out.txt","w");
 
     for (i = 1; i <= 100; i++)
     {
